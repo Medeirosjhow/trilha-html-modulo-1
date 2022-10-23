@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo I - Primeiros passos com HTML</title>
+</head>
+
+<body>
+    <h1>Módulo I – Primeiros Passos com HTML</h1>
+    <hr>
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="">O que são <i>Client's</i>?</a></li>
+        <li><a href="">O que são <i>Server's</i>?</a></li>
+        <li><a href="">O que é <i>HTML</i>?</a></li>
+        <li><a href="">Estrutura base de um <i>HTML</i></a></li>
+        <li><a href="">Conhecendo algumas<i>Tag's</i></a></li>
+        <li><a href="">Link's de referências</a></li>
+    </ul>
+
+    <h3>O que são <i>Clients?</i></h3>
+    <p>
+        Em um âmbito geral, <b>cliente</b> é todo aquele que consome algo e para o contexto da internet não é diferente,
+        os
+        <b>clientes</b> são as máquinas e dispositivos que consomem a internet.<br>
+        Todo dispositivo que está conectado a uma rede, que faz uma requisição e recebe uma resposta.<br>
+        Para exemplificar, vamos observar o que acontece quando navegamos no <i>google</i>:<br><br>
+        Abrimos nosso navegado, digitamos o endereço e pressionamos enter, neste momento nossa máquina
+        “<strong>Client</strong>” ira
+        fazer uma requisição para um “<a href=""><strong>server</strong></a>”, que ira retornar a página de busca.
+    </p>
+    <a href="#indice">Voltar</a>
+
+    <h3>O que são <i>Server's</i></h3>
+    <p>
+        <strong>Server’s</strong> é o mesmo que servidor, é uma máquina responsável por armazenar conteúdo e servir ele
+        quando for
+        solicitado, podemos comparar com uma lanchonete de esquina.<br><br>
+
+        Em casos mais simples, você pode entrar e pedir uma coxinha pronta, mas se quer complexidade de sabor, você pode
+        pedir um lanche, e na construção do seu lanche haverá uma comunicação do cozinheiro para melhorar o seu lanche,
+        exemplo, quer katcup? Sem mostarda?... etc...<br>
+
+        No contexto da internet não é diferente, se o que você deseja é um conteúdo simples como acessar o
+        <i>google</i>, basta
+        pedir no endereço <i>google.com.br</i> que a página será exibida.<br>
+        Mas se deseja criar uma conta no <i>google</i>, vai precisar fornecer dados e informações para o servidor de
+        forma que
+        ele consiga te servir uma conta.
+
+    </p>
+    <a href="#indice">Voltar</a>
+
+    <h3>O que é <i>HTML</i></h3>
+    <p>
+        <abbr title="Hyper Text Markup Language">HTML</abbr> ou Linguagem de marcação de texto, é a linguagem padrão da
+        internet, ela é utilizada para marcar o conteúdo de um site de forma que ele seja
+        exibido para o cliente de forma estruturada.
+        A página web é um documento e por isso ela precisa de uma formatação.
+
+    </p>
+    <a href="#indice">Voltar</a>
+
+    <h3>Estrutura base de um <i>HTML</i></h3>
+    <p>
+        <span>
+            <</span>!DOCTYPE html<span>>
+        </span><br>
+        <span>
+            <</span>html lang="pt-br" <span>>
+        </span><br>
+        <span>
+            <</span>head <span>>
+        </span><br>
+        <blockquote>
+            <span>
+                <</span>meta charset="UTF-8" <span>>
+            </span><br>
+            <span>
+                <</span>meta http-equiv="X-UA-Compatible" content="IE=edge" <span>>
+            </span><br>
+            <span>
+                <</span>meta name="viewport" content="width=device-width, initial-scale=1.0" <span>>
+            </span><br>
+            <span>
+                <</span>title>Document <span>
+                    <</span>/title <span>>
+            </span><br>
+        </blockquote>
+        <span>
+            <</span>/head <span>>
+        </span><br>
+        <span>
+            <</span>body <span>>
+        </span><br>
+
+        <span>
+            <</span>/body <span>>
+        </span><br>
+        <span>
+            <</span>/html <span>>
+        </span><br>
+    </p>
+
+    <p>
+        <b><span> <</span>!DOCTYPE html<span>></span><br></b> Está tag é repsonsável por dizer ao navegador que é um documento do tipo HTML.<br><br>
+
+        <b><span> <</span>html lang="pt-br"<span>></span><br></b> Está é uma tag que marca todo o conteudo html, se observar bem, verá que ela começa com html e termina com /html, desta forma marcando todo conteúdo.<br><br>
+
+        <b><span> <</span>head<span>></span><br></span></b> Está tag é responsável por abraçar toda a cabeça do site, aqui entram alguns metadados como o titulo da página, folhas de estilos e alguns outros arquivos e configurações.<br><br>
+
+        <b><span> <</span>meta charset="UTF-8"<span>></span><br></b> Está é uma tag de configuração, aqui dizemos ao navegador qual é o formato de codificação de caracteres utilizado.<br><br>
+
+        <b><span> <</span>meta http-equiv="X-UA-Compatible" content="IE=edge"<span>></span><br></b> Tag de compatibilidade com internet explorer<br><br>
+
+        <b><span> <</span>meta name="viewport" content="width=device-width, initial-scale=1.0"<span>></span><br></b> Está tag é responsavel por controlar a exibição do nosso site em dispositivos móveis.<br><br>
+
+        <b><span> <</span>title>Document<span> <</span>/title<span>></span><br></b> Esta tag é utilizada para marcar o titlo do site, o que aparece na aba do navegador.<br><br>
+
+        <b><span> <</span>/head<span>></span><br></b> Tag de fechamento da cabeça do nosso html.<br><br>
+
+        <b><span> <</span>body<span>></span><br></b> Está é tag que irá exibir nosso conteúdo, ela abraça nosos paragrafos imagens e todo tipo de midia.<br><br>
+
+        <b><span> <</span>/body<span>></span><br></b> tag de fechamento do corpo do conteudo.<br><br>
+
+        <b><span> <</span>/html<span>></span><br></b> tag de fechamento do documento html.
+    </p>
+    <a href="#indice">Voltar</a>
+
+    <h3>Conhecendo algumas <i>Tags</i></h3>
+    <p>conheçam alguns elementos de formatação, para exibir tipos especiais de texto.:</p>
+    <ul>
+        <li><b class="red"><span><</span>a<span>></span></b> - Tag utilizada para marcar um link. </li>
+        <li><b class="red"><span><</span>abbr<span>></span></b> -  Está tag é utilizada para marcar uma sigla como HTML. ela adiciona a descrição via propriedade <b>title</b>.</li>
+        <li><b class="red"><span><</span>b<span>></span></b> - Está Tag é utilizada para marcar um conteúdo como <b>negrito</b>.</li>
+        <li><b class="red"><span><</span>blockquote<span>></span></b> - Está Tag é utilizada para criar citações no texto.</li>
+        <li><b class="red"><span><</span>strong<span>></span></b> - Está Tag é praticamente igual ao <b>b</b> sua diferença está no valor semântico, pois ela é responsável por dar uma forte ênfase no texto, fundamental para leitores de tela e acessibilidade.</li>
+        <li><b class="red"><span><</span>del<span>></span></b> - Está Tag é utilizada na correção de textos: <del>exemplo</del>.</li>
+        <li><b class="red"><span><</span>em<span>></span></b> - Tag utilizada para dar uma enfase no conteudo, geralmente deixa ele em italico</li>
+        <li><b class="red"><span><</span>font<span>></span></b> -  Tag necessita de atributos, é uma tag de estilização. recomenda-se não usar ela, apenas css.</li>
+        <li><b class="red"><span><</span>i<span>></span></b> - Está tag é utilizada para deixar o conteudo em italico.</li>
+        <li><b class="red"><span><</span>ins<span>></span></b> - Define um texto que foi inserido</li>
+        <li><b class="red"><span><</span>li<span>></span></b> - Define um item da lista</li>
+        <li><b class="red"><span><</span>mark<span>></span></b> - Marca um texto como se forsse marcado por marcatexto<mark>Exemplo</mark></li>
+        <li><b class="red"><span><</span>ol<span>></span></b> Define uma lista ordernada</li>
+        <li><b class="red"><span><</span>p<span>></span></b> Define um paragrafo</li>
+        <li><b class="red"><span><</span>sub<span>></span></b> define um conteudo a baixo da linha, ex: h<b><sub>2</sub></b>o </li>
+        <li><b class="red"><span><</span>small<span>></span></b> Define um texto menor</li>
+        <li><b class="red"><span><</span>sup<span>></span></b>Define um texto um pouco mais alto, como potenciação: 2<sup>2</sup></li>
+        <li><b class="red"><span><</span>u<span>></span></b> Marca um texto com <u>underline</u></li>
+        <li><b class="red"><span><</span>ul<span>></span></b> Marca uma lista não ordenada.</li>
+    </ul>
+
+    <a href="#indice">Voltar</a>
+
+    <h3>Link's de referência</h3>
+    <p>
+        <a href="https:w3schools.com">W3Schools</a>
+    </p>
+    <a href="#indice">Voltar</a>
+
+</body>
+
+</html>
